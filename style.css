@@ -1,0 +1,53 @@
+div {
+ height: 50px;
+  width: 100%;
+  background-color: blue;
+  border: solid;
+  text-align: center;
+  position: fixed;
+
+
+}
+
+#logo {
+    
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  margin: 20px;
+}
+   .div1 { 
+          height 300px;
+		  width 75%;
+		  background-color: blue;
+		  display: inline-block;
+        } 
+         .div2 {
+		 height 300px;
+		  width 75%;
+		  background-color: blue;
+		  display: inline-block;
+        } 
+       .div3 {
+		  height 300px;
+		  width 75%;
+		  background-color: blue;
+		  display: inline-block;
+        } 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  border: solid;
+  color: black;
+  text-align: center;
+}
+
+
+
