@@ -1,0 +1,111 @@
+#topDiv {
+ height: 50px;
+  width: 100%;
+  background-color: #9999ff;
+  border: solid;
+  text-align: center;
+  position: fixed;
+
+
+}
+
+#logo {
+    
+  border-radius: 25px;
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffcc66;
+  top: 20px;
+  margin: 20px;
+  z-index: 100;
+  position:relative;
+  
+  
+}
+
+
+.firstRowBox {
+  height: 100px; 
+  width: 30%;
+  border-style: solid;
+  background-color: #ffcc66;
+  display: inline-block;
+  
+  
+  
+}
+
+.secondRowBox {
+	height: 100px;
+  width:  600px;
+  background-color: #ffcc00;
+	display: inline-block;
+  border-style: solid;
+  border-width: 5px;
+  float: left;
+  } 
+     
+
+
+.third1 {
+		  height 200px;
+		  width 400px;
+		  background-color: #ff9933;
+      border-style: solid;
+      border-width: 5px;
+      position: relative;
+      flex-direction: column;
+      float: left;
+}
+  
+  .third2 {
+		  height 200px;
+		  width 400px;
+		  background-color: #ff9933;
+      border-style: solid;
+      border-width: 5px;
+      position: fixed;
+      flex-direction: column;
+      float: left;
+      top: 350px;
+}
+    
+    .third3 {
+		  height 200px;
+		  width 380px;
+		  background-color: #ff9933;
+      border-style: solid;
+      border-width: 5px;
+       position: fixed;
+      flex-direction: column;
+      float: left;
+      top: 385px;
+
+    }
+    
+.stickyDiv {
+    bottom: 0px;
+    float: right;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    border: 5px;
+    border-style: solid;
+   background-color: yellow;
+    
+  
+}
+      
+        
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9999ff;
+  border: solid;
+  color: black;
+  text-align: center;
+}
